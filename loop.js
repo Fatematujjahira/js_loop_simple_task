@@ -24,3 +24,10 @@ for (let j in k) {
   console.log(k[j]);
   d = d + k[j] + "<br>"; // It will print every char in a single line in html.
 } document.getElementById("task3").innerHTML = d;
+
+// task 4
+let e = "";
+for (let j of k) {
+  console.log(j);
+  e = e + j + "<br>"; // It will print every char in a single line in html.
+} document.getElementById("task4").innerHTML = e;
