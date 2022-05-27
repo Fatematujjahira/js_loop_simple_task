@@ -1,6 +1,6 @@
 # js_loop_simple_task
 
-It is fun woring with codes.
+It is fun working with codes.
 But I think it is not done yet. There is more and more.
 Like I just add an example about for loop using statement using `in` operator.
 There is more you can use `of` operator in javascript.
