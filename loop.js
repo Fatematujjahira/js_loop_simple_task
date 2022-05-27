@@ -17,3 +17,10 @@ for (let c = 0; c < line; c++) {
   console.log(number);
   document.getElementById("task2").innerHTML = number;
 }
+// task 3
+let k = "This is an anoter kind of for loop. Did you ever tried?";
+let d = "";
+for (let j in k) {
+  console.log(k[j]);
+  d = d + k[j] + "<br>"; // It will print every char in a single line in html.
+} document.getElementById("task3").innerHTML = d;
